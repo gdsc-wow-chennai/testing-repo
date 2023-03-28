@@ -6,8 +6,8 @@ const links = [
     text: "About",
   },
   {
-    href: "#intinerary",
-    text: "Intinerary",
+    href: "#itinerary",
+    text: "Itinerary",
   },
   {
     href: "#sponsors",
