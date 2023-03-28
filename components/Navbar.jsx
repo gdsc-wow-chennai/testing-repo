@@ -29,7 +29,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div className="sticky top-1 ml-72 -mr-12 bg-gradient-to-r from-royalblue to-brightred p-0.5 rounded-2xl shadow-md">
+    <div className="z-50 sticky top-1 ml-72 -mr-12 border border-royalblue p-0.5 rounded-2xl shadow-md">
       <div className=" px-6 py-4 flex flex-row justify-around bg-white rounded-2xl">
         {links.map((link, index) => {
           return <NavLink key={index} {...link} />;

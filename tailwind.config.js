@@ -10,10 +10,11 @@ module.exports = {
       colors: {
         royalblue: "#4285F4",
         brightred: "#DB4437",
+        selectiveyellow: "#F4B400",
       },
-    },
-    fontFamily: {
-      sans: ["Poppins", "sans-serif"],
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
+      },
     },
   },
   plugins: [],
