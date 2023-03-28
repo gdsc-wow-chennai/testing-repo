@@ -1,12 +1,12 @@
-import AboutSection from "@/components/AboutSection";
-import ContactSection from "@/components/ContactSection";
-import GDSCSection from "@/components/GDSCSection";
-import HeroSection from "@/components/HeroSection";
-import ItinerarySection from "@/components/ItinerarySection";
+import AboutSection from "@/components/sections/AboutSection";
+import ContactSection from "@/components/sections/ContactSection";
+import GDSCSection from "@/components/sections/GDSCSection";
+import HeroSection from "@/components/sections/HeroSection";
+import ItinerarySection from "@/components/sections/ItinerarySection";
 import Navbar from "@/components/Navbar";
-import PrizesSection from "@/components/PrizesSection";
-import QuestionsSection from "@/components/QuestionsSection";
-import SponsorsSection from "@/components/SponsorsSection";
+import PrizesSection from "@/components/sections/PrizesSection";
+import QuestionsSection from "@/components/sections/QuestionsSection";
+import SponsorsSection from "@/components/sections/SponsorsSection";
 import Head from "next/head";
 
 export default function Home() {
