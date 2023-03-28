@@ -36,7 +36,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
   else if (color === "brightred")
     return (
       <div
-        className={`min-h-[520px] mx-24 bg-gradient-to-t from-brightred/75 via-brightred/10 to-white px-8 rounded-3xl`}
+        className={`min-h-[520px] mx-24 bg-gradient-to-t from-brightred/75 via-brightred/10 to-white px-8 rounded-3xl mb-48`}
       >
         {/* Backdrop text below */}
         <span
