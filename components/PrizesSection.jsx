@@ -1,5 +1,5 @@
 const PrizesSection = () => {
-  return <></>;
+  return <div className="min-h-screen"></div>;
 };
 
 export default PrizesSection;

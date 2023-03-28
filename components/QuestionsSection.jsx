@@ -1,5 +1,5 @@
 const QuestionsSection = () => {
-  return <></>;
+  return <div className="min-h-screen"></div>;
 };
 
 export default QuestionsSection;

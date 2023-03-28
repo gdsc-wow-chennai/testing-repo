@@ -1,5 +1,5 @@
 const ContactSection = () => {
-  return <></>;
+  return <div className="min-h-screen"></div>;
 };
 
 export default ContactSection;
