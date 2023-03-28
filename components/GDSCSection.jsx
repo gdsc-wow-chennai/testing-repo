@@ -1,5 +1,5 @@
 const GDSCSection = () => {
-  return <div className="min-h-screen"></div>;
+  return <div className="min-h-screen" id="gdsc"></div>;
 };
 
 export default GDSCSection;

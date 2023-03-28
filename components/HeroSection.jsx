@@ -1,5 +1,5 @@
 const HeroSection = () => {
-  return <div className="min-h-screen"></div>;
+  return <div className="min-h-screen" id="hero"></div>;
 };
 
 export default HeroSection;
