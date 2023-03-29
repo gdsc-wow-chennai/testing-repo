@@ -11,7 +11,7 @@ const AboutSection = () => {
           annual, student-centric technical fest maneuvered by 400+ GDSCs and
           200+ colleges with over 20K events each year all over India.
         </p>
-        <Image src={ChennaiSkyline} alt="" className="relative top-1" />
+        <Image src={ChennaiSkyline} alt="" className="relative top-5" />
       </ContentBox>
     </div>
   );
