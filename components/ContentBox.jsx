@@ -7,7 +7,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
       >
         {/* Backdrop text below */}
         <span
-          className={`font-serif font-bold text-selectiveyellow/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
+          className={`font-serif font-bold tracking-wider text-selectiveyellow/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
           {title}
         </span>
@@ -31,7 +31,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
       >
         {/* Backdrop text below */}
         <span
-          className={`font-serif font-bold text-royalblue/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
+          className={`font-serif font-bold tracking-wider text-royalblue/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
           {title}
         </span>
@@ -55,7 +55,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
       >
         {/* Backdrop text below */}
         <span
-          className={`font-serif font-bold text-brightred/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
+          className={`font-serif font-bold tracking-wider text-brightred/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
           {title}
         </span>
@@ -79,7 +79,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
       >
         {/* Backdrop text below */}
         <span
-          className={`font-serif font-bold text-darkgreen/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
+          className={`font-serif font-bold tracking-wider text-darkgreen/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
           {title}
         </span>
