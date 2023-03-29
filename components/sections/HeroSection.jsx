@@ -15,22 +15,22 @@ const HeroSection = () => {
         <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
       </div>
       ;
-      <div className="flex flex-col items-center justify-center -space-y-16 ">
-        <div className="flex gap-10 m-20 items-center justify-between h-full">
-          <div className="w-1/2">
-            <Image src={logo} alt="WoW Chennai Logo" className="w-[90%]" />
+      <div className="flex flex-col items-center justify-center  md:-space-y-16 h-screen ">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-10 m-10 md:m-20 items-center justify-center md:justify-between h-full">
+          <div className="md:w-1/2">
+            <Image src={logo} alt="WoW Chennai Logo" className="md:w-[90%]" />
           </div>
-          <div className="w-1/2 flex items-center justify-center">
+          <div className="md:w-1/2 flex items-center justify-center">
             <Image src={sideImage} alt="WoW Chennai Animation" className="" />
           </div>
         </div>
 
         <div className="flex items-center justify-center flex-col gap-6 w-full">
-          <h1 className="tagline text-2xl font-semibold text-center text-[#4285F4]">
+          <h1 className="tagline text-lg md:text-2xl font-semibold text-center min-w-fit">
             South India’s premier student networking event
           </h1>
           <a
-            className=" text-lg bg-[#4285F4] px-10 py-3 hover:shadow-2xl transition-all duration-500 font-light rounded-full text-white"
+            className="text-sm md:text-lg bg-[#4285F4] px-8 py-3 md:px-10 md:py-3 hover:shadow-2xl transition-all duration-500 font-light rounded-full text-white"
             href="#"
           >
             Register Now
@@ -39,7 +39,7 @@ const HeroSection = () => {
           <div className="flex items-center justify-center w-full ">
             {/* <div class="icon-scroll "></div> */}
 
-            <Image src={mouseScroll} alt="" className="w-20" />
+            <Image src={mouseScroll} alt="" className="w-10 md:w-20" />
           </div>
         </div>
       </div>
