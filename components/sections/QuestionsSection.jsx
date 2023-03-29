@@ -6,9 +6,10 @@ const QuestionsSection = () => {
       <ContentBox
         title="Questions"
         content={
-          "GDSC Wonder of Wonders is an astronomical, country-wide, in-person, annual, student-centric technical fest maneuvered by 400+ GDSCs and 200+ colleges with over 20K events each year all over India."
+          "If you have any questions, please reach out to us at [email protected] or join our Discord server."
         }
-        color="selectiveyellow"
+        color="darkgreen"
+        backdrop={"faqs"}
       />
     </div>
   );
