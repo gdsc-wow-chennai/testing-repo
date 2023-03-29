@@ -1,4 +1,4 @@
-const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
+const ContentBox = ({ title, content, color = "sectiveyellow", backdrop = null }) => {
   // SelectiveYellow ContentBox
   if (color === "selectiveyellow")
     return (
@@ -9,7 +9,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
         <span
           className={`font-serif font-bold tracking-wider text-selectiveyellow/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
-          {title}
+          {backdrop || title}
         </span>
         <h1
           className={`text-3xl sm:text-4xl md:text-5xl font-semibold -translate-y-1/2 text-selectiveyellow mb-12`}
@@ -33,7 +33,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
         <span
           className={`font-serif font-bold tracking-wider text-royalblue/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
-          {title}
+          {backdrop || title}
         </span>
         <h1
           className={`text-3xl sm:text-4xl md:text-5xl font-semibold -translate-y-1/2 text-royalblue mb-12`}
@@ -57,7 +57,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
         <span
           className={`font-serif font-bold tracking-wider text-brightred/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
-          {title}
+          {backdrop || title}
         </span>
         <h1
           className={`text-3xl sm:text-4xl md:text-5xl font-semibold -translate-y-1/2 text-brightred mb-12`}
@@ -81,7 +81,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow" }) => {
         <span
           className={`font-serif font-bold tracking-wider text-darkgreen/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
-          {title}
+          {backdrop || title}
         </span>
         <h1
           className={`text-3xl sm:text-4xl md:text-5xl font-semibold -translate-y-1/2 text-darkgreen mb-12`}
