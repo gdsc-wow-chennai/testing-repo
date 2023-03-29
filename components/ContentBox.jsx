@@ -1,4 +1,10 @@
-const ContentBox = ({ title, content, color = "sectiveyellow", backdrop = null }) => {
+const ContentBox = ({
+  title,
+  content,
+  color = "sectiveyellow",
+  backdrop = null,
+  children,
+}) => {
   // SelectiveYellow ContentBox
   if (color === "selectiveyellow")
     return (
@@ -19,7 +25,7 @@ const ContentBox = ({ title, content, color = "sectiveyellow", backdrop = null }
         <p
           className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
         >
-          {content}
+          {children || content}
         </p>
       </div>
     );
