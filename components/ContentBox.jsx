@@ -22,11 +22,15 @@ const ContentBox = ({
         >
           {title}
         </h1>
-        <p
-          className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
-        >
-          {children || content}
-        </p>
+        {!children ? (
+          <p
+            className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
+          >
+            {content}
+          </p>
+        ) : (
+          children
+        )}
       </div>
     );
   // RoyalBlue ContentBox
@@ -46,11 +50,15 @@ const ContentBox = ({
         >
           {title}
         </h1>
-        <p
-          className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
-        >
-          {content}
-        </p>
+        {!children ? (
+          <p
+            className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
+          >
+            {content}
+          </p>
+        ) : (
+          children
+        )}
       </div>
     );
   // BrightRed ContentBox
@@ -70,11 +78,15 @@ const ContentBox = ({
         >
           {title}
         </h1>
-        <p
-          className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
-        >
-          {content}
-        </p>
+        {!children ? (
+          <p
+            className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
+          >
+            {content}
+          </p>
+        ) : (
+          children
+        )}
       </div>
     );
   // DarkGreen ContentBox
@@ -94,11 +106,15 @@ const ContentBox = ({
         >
           {title}
         </h1>
-        <p
-          className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
-        >
-          {content}
-        </p>
+        {!children ? (
+          <p
+            className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
+          >
+            {content}
+          </p>
+        ) : (
+          children
+        )}
       </div>
     );
 };
