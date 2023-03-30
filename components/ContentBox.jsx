@@ -9,7 +9,7 @@ const ContentBox = ({
   if (color === "selectiveyellow")
     return (
       <div
-        className={`min-h-[80vh] mx-12 md:mx-16 lg:mx-24 bg-gradient-to-t from-selectiveyellow/40 to-selectiveyellow/0 px-8 rounded-3xl  border-selectiveyellow`}
+        className={`min-h-[80vh] mx-12 md:mx-16 lg:mx-24 bg-gradient-to-t from-selectiveyellow/40 to-selectiveyellow/0 px-8 rounded-3xl  border-selectiveyellow relative`}
       >
         {/* Backdrop text below */}
         <span
