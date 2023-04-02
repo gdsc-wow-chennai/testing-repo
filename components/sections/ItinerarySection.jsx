@@ -1,8 +1,13 @@
 import ContentBox from "../ContentBox";
+import bottomLeft from "../../assets/icon.png";
+import Image from "next/image";
 
 const ItinerarySection = () => {
   return (
     <div className="min-h-screen pt-24" id="itinerary">
+      <div className="absolute md:-bottom-[53rem] -left-14">
+        <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
+      </div>
       <ContentBox
         title="Itinerary"
         content={
