@@ -7,17 +7,13 @@ import Navbar from "@/components/Navbar";
 import PrizesSection from "@/components/sections/PrizesSection";
 import QuestionsSection from "@/components/sections/QuestionsSection";
 import SponsorsSection from "@/components/sections/SponsorsSection";
-import Head from "next/head";
+import SeoComponent from "@/components/Seo";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>GDSC WoW | Chennai</title>
-        <meta name="description" content="GDSC WoW Chennai" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SeoComponent title="GDSC WoW Chennai 2023" description={"India's premier student networking event bringing the brightest future talent together."} image={"../assets/banner.png"} />
+      <link rel="icon" href="/favicon.ico" />
       <main>
         <HeroSection />
         <Navbar />
