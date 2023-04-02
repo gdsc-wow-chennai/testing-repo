@@ -31,7 +31,8 @@ const HeroSection = () => {
           </h1>
           <a
             className="text-sm md:text-lg bg-[#4285F4] px-8 py-3 md:px-10 md:py-3 hover:shadow-2xl transition-all duration-500 font-light rounded-full text-white"
-            href="#"
+            href="https://konfhub.com/wow-chennai"
+            target="_blank"
           >
             Register Now
           </a>
