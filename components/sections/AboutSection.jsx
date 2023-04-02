@@ -9,7 +9,7 @@ const AboutSection = () => {
       {/* <div className="absolute -bottom-24 -left-[9.375rem]">
           <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
         </div> */}
-      <div className="absolute -bottom-80 -left-14">
+      <div className="absolute -bottom-[53rem] -left-14">
         <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
       </div>
       <ContentBox title="About us" color="selectiveyellow">
