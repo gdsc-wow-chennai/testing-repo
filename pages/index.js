@@ -12,8 +12,8 @@ import SeoComponent from "@/components/Seo";
 export default function Home() {
   return (
     <>
-      <SeoComponent title="GDSC WoW Chennai 2023" description={"India's premier student networking event bringing the brightest future talent together."} image={"/banner.png"} />
-      <link rel="icon" href="/icon.png" />
+      <SeoComponent title="GDSC WoW Chennai 2023" description={"India's premier student networking event bringing the brightest future talent together."} image={"../assets/banner.png"} />
+      <link rel="icon" href="../assets/icon.png" />
       <main className="scroll-smooth">
         <HeroSection />
         <Navbar />
