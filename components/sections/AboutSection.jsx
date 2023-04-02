@@ -1,10 +1,17 @@
 import Image from "next/image";
 import ContentBox from "../ContentBox";
 import ChennaiSkyline from "assets/chennaiSkyline.svg";
+import bottomLeft from "../../assets/icon.png";
 
 const AboutSection = () => {
   return (
     <div className="min-h-screen pt-24" id="about">
+      {/* <div className="absolute -bottom-24 -left-[9.375rem]">
+          <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
+        </div> */}
+      <div className="absolute -bottom-80 -left-14">
+        <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
+      </div>
       <ContentBox title="About us" color="selectiveyellow">
         <p className="text-black/75 text-xl md:text-2xl lg:text-3xl leading-10 min-h-[360px] flex items-center">
           GDSC Wonder of Wonders is an astronomical, country-wide, in-person,
