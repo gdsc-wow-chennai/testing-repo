@@ -15,7 +15,7 @@ const HeroSection = () => {
         <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
       </div>
       ;
-      <div className="flex flex-col items-center justify-center  md:-space-y-16 h-screen ">
+      <div className="flex flex-col items-center justify-center h-screen  ">
         <div className="flex flex-col md:flex-row gap-4 md:gap-10 m-10 md:m-20 items-center justify-center md:justify-between h-full">
           <div className="md:w-1/2">
             <Image src={logo} alt="WoW Chennai Logo" className="md:w-[90%]" />
@@ -25,7 +25,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center flex-col gap-6 w-full">
+        <div className="flex items-center justify-center flex-col relative bottom-14 gap-6 w-full">
           <h1 className="tagline text-lg md:text-2xl font-semibold text-center min-w-fit">
             South India’s premier student networking event
           </h1>
