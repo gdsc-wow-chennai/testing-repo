@@ -11,8 +11,8 @@ const HeroSection = () => {
     <div className="min-h-screen " id="hero">
       {/* <Icon /> */}
       <SideImages />
-      <div className="absolute -bottom-10 -left-14">
-        <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
+      <div className="absolute -bottom-20 md:-bottom-10 -left-14">
+        <Image src={bottomLeft} alt="" className="w-28 md:w-32 opacity-30" />
       </div>
       ;
       <div className="flex flex-col items-center justify-center h-screen  ">
