@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const SponsorsSection = () => {
   return (
-    <div className="min-h-screen pt-24" id="sponsors">
+    <div className="min-h-screen pt-14 md:pt-24" id="sponsors">
       <div className="absolute md:-bottom-[53rem] -left-14">
         <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
       </div>

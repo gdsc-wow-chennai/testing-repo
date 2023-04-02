@@ -5,7 +5,7 @@ import ChennaiSkyline from "assets/chennaiSkyline.svg";
 
 const AboutSection = () => {
   return (
-    <div className="min-h-screen pt-24" id="about">
+    <div className="min-h-screen pt-14 md:pt-24" id="about">
       {/* <div className="absolute -bottom-24 -left-[9.375rem]">
           <Image src={bottomLeft} alt="" className="w-32 opacity-30" />
         </div> */}
