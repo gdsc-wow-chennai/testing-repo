@@ -13,7 +13,7 @@ const ContentBox = ({
       >
         {/* Backdrop text below */}
         <span
-          className={`font-serif font-bold tracking-wider text-selectiveyellow/10 text-5xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
+          className={`font-serif font-bold tracking-wider text-selectiveyellow/10 text-4xl sm:text-6xl md:text-8xl absolute -translate-y-1/2 uppercase -translate-x-5`}
         >
           {backdrop || title}
         </span>
