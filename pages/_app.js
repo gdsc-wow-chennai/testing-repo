@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     setTimeout(() => {
       setShowPreloader(false);
-    }, 6000);
+    }, 5000);
   }, []);
 
   return (
