@@ -3,7 +3,7 @@ import PreloaderGif from "../assets/preloader.gif";
 
 const Preloader = () => {
   return (
-    <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-screen h-screen">
+    <div className="flex items-center justify-center w-screen h-full bg-white fixed top-0 left-0 z-9999">
       <Image src={PreloaderGif} alt="Loading..." />
     </div>
   );
