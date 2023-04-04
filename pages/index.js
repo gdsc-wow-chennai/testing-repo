@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <SeoComponent title="GDSC WoW Chennai 2023" description={"India's premier student networking event bringing the brightest future talent together."} image={"../assets/banner.png"} />
       <link rel="icon" href="../../assets/icon.png" />
-      <main className="scroll-smooth">
+      <main className="scroll-smooth w-screen ">
         <HeroSection />
         <Navbar />
         <AboutSection />

@@ -24,7 +24,7 @@ const ContentBox = ({
         </h1>
         {!children ? (
           <p
-            className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10  min-h-[360px] flex items-center`}
+            className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10 min-h-[360px] flex items-center`}
           >
             {content}
           </p>
