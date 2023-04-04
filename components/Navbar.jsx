@@ -29,7 +29,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div className="hidden md:visible md:text-xl lg:text-2xl lg:visible z-50 sticky top-5 ml-80 -mr-12 border border-royalblue/50  rounded-2xl shadow-md">
+    <div className="hidden md:block md:text-xl lg:text-2xl lg:visible z-50 sticky top-5 ml-80 -mr-12 border border-royalblue/50  rounded-2xl shadow-md">
       <div className=" px-6 py-4 flex flex-row justify-around bg-white rounded-2xl">
         {links.map((link, index) => {
           return <NavLink key={index} {...link} />;
