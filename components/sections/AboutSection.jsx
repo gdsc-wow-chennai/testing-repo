@@ -33,7 +33,7 @@ const AboutSection = () => {
           annual, student-centric technical fest maneuvered by 400+ GDSCs and
           200+ colleges with over 20K events each year all over India.
         </p>
-        <Image src={ChennaiSkyline} alt="" className="absolute -bottom-2 scale-105" />
+        <Image src={ChennaiSkyline} alt="" className="absolute -bottom-2 right-1 scale-75 md:scale-105 " />
       </ContentBox>
     </div>
   );
