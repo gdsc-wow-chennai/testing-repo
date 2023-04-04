@@ -8,6 +8,7 @@ import PrizesSection from "@/components/sections/PrizesSection";
 import QuestionsSection from "@/components/sections/QuestionsSection";
 import SponsorsSection from "@/components/sections/SponsorsSection";
 import SeoComponent from "@/components/Seo";
+// import Preloader from "@/components/Preloader";
 
 export default function Home() {
   return (

@@ -27,7 +27,7 @@ const AboutSection = () => {
 
   return (
     <div className={`${isVisible ? "opacity-100 transition duration-1000 ease-in-out" : "opacity-0"} min-h-screen pt-14 md:pt-24`} id="about">
-      <ContentBox title="About us" color="selectiveyellow">
+      <ContentBox title="About us" color="selectiveyellow" >
         <p className={`text-black/75 text-xl md:text-2xl lg:text-3xl leading-10 min-h-[360px] flex items-center `}>
           GDSC Wonder of Wonders is an astronomical, country-wide, in-person,
           annual, student-centric technical fest maneuvered by 400+ GDSCs and

@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </>
       ) : (
-        <Preloader />
+        <Preloader  {...pageProps}/>
       )}
     </>
   );
